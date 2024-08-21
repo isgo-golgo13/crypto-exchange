@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(crypto_exchange_app main.cpp)
 
-# add submodule dependency directories (cars)
+# add submodule dependency directories (crypto_exchanges)
 add_subdirectory(crypto_exchanges)
 target_link_libraries(crypto_exchange_app PRIVATE crypto_exchanges)
